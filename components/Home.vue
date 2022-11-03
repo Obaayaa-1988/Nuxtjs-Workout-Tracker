@@ -6,27 +6,10 @@
 
     <div class="flex-1">
       <div>
-        <main class="text-center">MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
-        <main>MY MAIN CONTENT</main>
+        <!-- <div class="text-center bg-cyan-500 w-full h-80 rounded-br-full"> -->
+        <div class="text-center ">
+          <h1 class="text-3xl font-extrabold pt-8">Hello Welcome To MyFit</h1>
+        </div>
         <main>MY MAIN CONTENT</main>
         <main>MY MAIN CONTENT</main>
         <main>MY MAIN CONTENT</main>
