@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="bg-gray-100 h-full">
       <aside class="w-64" aria-label="Sidebar">
          <nav class="text-right">
             <div class="flex justify-between items-center">
