@@ -5,8 +5,7 @@
     </div>
 
     <div class="flex-1">
-      <div
-        class="
+      <div class="
           h-1/4
           w-full
           bg-indigo-200
@@ -15,18 +14,13 @@
           backdrop-filter backdrop-blur-sm
           bg-opacity-40
           border border-gray-100
-        "
-      >
+        ">
         <div class="flex justify-around">
           <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">CHOOSE A WORKOUT</h2>
           <div> </div>
 
           <div>
-            <img
-              src="images/removebg.png"
-              alt="PanCake"
-              class="w-96 h-96 object-cover"
-            />
+            <img src="images/removebg.png" alt="PanCake" class="w-96 h-96 object-cover" />
           </div>
         </div>
       </div>
@@ -47,19 +41,14 @@
             <!---cards here-->
             <div class="bg-red-200 rounded-3xl cursor-pointer">
               <div class="flex justify-center pt-16">
-                <img
-                  src="images/legs.png"
-                  alt="PanCake"
-                  class="w-36 h-36 object-cover"
-                />
+                <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Legs</span>
               </div>
             </div>
 
-            <div
-              class="
+            <div class="
                 bg-lime-300
                 rounded-3xl
                 overflow-hidden
@@ -67,22 +56,16 @@
                 relative
                 hover:shadow-lg
                 cursor-pointer
-              "
-            >
+              ">
               <div class="flex justify-center pt-16">
-                <img
-                  src="images/abs.png"
-                  alt="PanCake"
-                  class="w-36 h-36 object-cover"
-                />
+                <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Abs</span>
               </div>
             </div>
 
-            <div
-              class="
+            <div class="
                 bg-purple-200
                 rounded-3xl
                 overflow-hidden
@@ -90,22 +73,16 @@
                 relative
                 hover:shadow-lg
                 cursor-pointer
-              "
-            >
+              ">
               <div class="flex justify-center pt-16">
-                <img
-                  src="images/glutes.png"
-                  alt="PanCake"
-                  class="w-36 h-36 object-cover"
-                />
+                <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Glutes</span>
               </div>
             </div>
 
-            <div
-              class="
+            <div class="
                 bg-teal-400
                 rounded-3xl
                 overflow-hidden
@@ -113,14 +90,9 @@
                 relative
                 hover:shadow-lg
                 cursor-pointer
-              "
-            >
+              ">
               <div class="flex justify-center pt-16">
-                <img
-                  src="images/chest.png"
-                  alt="PanCake"
-                  class="w-36 h-36 object-cover"
-                />
+                <img src="images/chest.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Chest</span>
@@ -128,8 +100,7 @@
               </div>
             </div>
 
-            <div
-              class="
+            <div class="
                 bg-blue-200
                 rounded-3xl
                 overflow-hidden
@@ -137,22 +108,16 @@
                 relative
                 hover:shadow-lg
                 cursor-pointer
-              "
-            >
+              ">
               <div class="flex justify-center pt-16">
-                <img
-                  src="images/arms.png"
-                  alt="PanCake"
-                  class="w-36 h-36 object-cover"
-                />
+                <img src="images/arms.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Arms</span>
               </div>
             </div>
 
-            <div
-              class="
+            <div class="
                 bg-cyan-600
                 rounded-3xl
                 overflow-hidden
@@ -160,14 +125,9 @@
                 relative
                 hover:shadow-lg
                 cursor-pointer
-              "
-            >
+              ">
               <div class="flex justify-center pt-16">
-                <img
-                  src="images/full.png"
-                  alt="PanCake"
-                  class="w-36 h-36 object-cover"
-                />
+                <img src="images/full.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Full Body</span>
@@ -191,4 +151,5 @@ export default {
 </script>
 
 <style>
+
 </style>
