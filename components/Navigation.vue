@@ -1,8 +1,8 @@
 <template>
   <div>
-    <aside class="w-64" aria-label="Sidebar">
+    <aside class="w-64 " aria-label="Sidebar">
       <nav class="text-right">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center ">
           <h1 class="font-semibold upppercase p-4">
             <a href="#" class="hover:text-gray-700">WORKOUT TRACKER</a>
           </h1>
