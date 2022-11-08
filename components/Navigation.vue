@@ -3,8 +3,8 @@
       <aside class="w-64" aria-label="Sidebar">
          <nav class="text-right">
             <div class="flex justify-evenly items-center">
-               <h1 class="font-semibold upppercase p-8  text-center">
-                  <a href="#" class="hover:text-gray-700 ">MYFIT TRACKER</a>
+               <h1 class="font-extrabold upppercase p-8  text-neutral-800 text-lg font-mono">
+                  <nuxt-link to="/showcase" class="hover:text-gray-700 ">MYFIT TRACKER</nuxt-link>
                </h1>
                <div class="px-4 cursor-pointer md:hidden" id="burger">
                   <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -16,49 +16,49 @@
 
             <div class="flex flex-col items-center gap-y-12 mt-8">
                <p class="w-24  pr-8">
-                  <a href="#" class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono ">Profile</span>
+                  <nuxt-link to="/profile" class="flex justify-between gap-4">
+                     <span class="text-lg font-semibold font-mono text-pink-600">Profile</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                           class="w-7 h-7 font-semibold ">
+                           class="w-7 h-7 font-semibold text-pink-600">
                            <path stroke-linecap="round" stroke-linejoin="round"
                               d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
 
                        
                      </span>
-                  </a>
+                  </nuxt-link>
                </p>
 
                <p class="w-24 pr-2 ">
-                  <a class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono">Notify</span>
+                  <nuxt-link to="/notify" class="flex justify-between gap-4">
+                     <span class="text-lg font-semibold font-mono text-yellow-500">Notify</span>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500" fill="none" viewBox="0 0 24 24"
                            stroke="currentColor" stroke-width="2">
                            <path stroke-linecap="round" stroke-linejoin="round"
                               d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                         </svg>
                      </span>
-                  </a>
+                  </nuxt-link>
                </p>
 
                <p class="w-24 pr-2 ">
-                  <a class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono">Support</span>
+                  <nuxt-link to="/support" class="flex justify-between gap-4">
+                     <span class="text-lg font-semibold font-mono text-blue-500">Support</span>
                      <span>
                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                        class="w-6 h-6">
+                        class="w-6 h-6 text-blue-500">
                         <path stroke-linecap="round" stroke-linejoin="round"
                            d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                      </svg>
  
                      </span>
-                  </a>
+                  </nuxt-link>
                </p>
                <p class="w-24 pr-2 ">
-                  <a class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono">Settings</span>
+                  <nuxt-link to="/settings" class="flex justify-between gap-4 cursor-pointer">
+                     <span class="text-lg font-semibold font-mono ">Settings</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                            class="w-6 h-6 ">
@@ -68,20 +68,20 @@
                         </svg>
 
                      </span>
-                  </a>
+                  </nuxt-link>
                </p>
                <p class="w-24 pr-2 pt-72">
-                  <a class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono">LogOut</span>
+                  <nuxt-link to="/Logout" class="flex justify-between gap-4 cursor-pointer ">
+                     <span class="text-lg font-semibold font-mono text-pink-600 ">LogOut</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                           class="w-6 h-6">
+                           class="w-6 h-6 text-pink-600">
                            <path stroke-linecap="round" stroke-linejoin="round"
                               d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
                         </svg>
 
                      </span>
-                  </a>
+                  </nuxt-link>
                </p>
             </div>
          </nav>
