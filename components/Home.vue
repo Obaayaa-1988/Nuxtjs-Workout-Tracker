@@ -66,7 +66,7 @@
             </div>
 
             <div class="
-                bg-purple-200
+                bg-red-500
                 rounded-3xl
                 overflow-hidden
                 shadow-md
@@ -101,7 +101,7 @@
             </div>
 
             <div class="
-                bg-blue-200
+                bg-yellow-300
                 rounded-3xl
                 overflow-hidden
                 shadow-md
@@ -135,7 +135,8 @@
             </div>
           </div>
         </div>
-        <div class="pt-20">
+
+        <div class="pt-16">
           <FooterTracker />
         </div>
       </main>
