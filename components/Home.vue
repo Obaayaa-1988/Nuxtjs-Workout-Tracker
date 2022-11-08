@@ -42,7 +42,7 @@
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!---cards here-->
 
-            <nuxt-link to="/legs">
+            <nuxt-link to="/LegWorkOut">
               <div class="bg-red-200 rounded-3xl cursor-pointer">
                 <div class="flex justify-center pt-16">
                   <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
@@ -53,7 +53,7 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/abs">
+            <nuxt-link to="/AbsWorkOut">
               <div class="
                   bg-lime-300
                   rounded-3xl
@@ -72,7 +72,7 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/glutes"> 
+            <nuxt-link to="/GluteWorkOut"> 
 
               <div class="
                   bg-pink-500
@@ -92,7 +92,7 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/chest">
+            <nuxt-link to="/ChestWorkOut">
               
               <div class="
                   bg-teal-400
@@ -113,7 +113,7 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/arms"> 
+            <nuxt-link to="/ArmsWorkOut"> 
 
               <div class="
                   bg-yellow-300
@@ -133,7 +133,7 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/full"> 
+            <nuxt-link to="/FullWorkOut"> 
 
 
               <div class="

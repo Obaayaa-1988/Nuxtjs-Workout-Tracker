@@ -1,16 +1,14 @@
 <template>
-  <div> 
-   <h1>leg workout onlyyyyy</h1>
+  <div>
+    <h1>abs workout onlyyyyy</h1>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'AbsWorkOut'
-
-}
+  name: "AbsWorkOut",
+};
 </script>
 
 <style>
-
 </style>

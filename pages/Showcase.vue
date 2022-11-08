@@ -1,7 +1,7 @@
 <template>
   <div> 
     <div class="
-          h-1/4
+          h-screen
           w-full
           bg-indigo-200
           rounded-md
@@ -9,8 +9,17 @@
           backdrop-filter backdrop-blur-sm
           bg-opacity-40
           border border-gray-100
+          <!-- rounded-br-full -->
+          <!-- shadow-lg shadow-gray-500/50 -->
+          
+
         ">
-        <div class="flex justify-around">
+        <div class="flex justify-around mb:block">
+            <div>
+            <img src="images/work-remove.png" alt="PanCake" class="w-full h-full object-cover" />
+          </div>
+
+            
             <div> 
 
                 <div> 
@@ -24,9 +33,7 @@
               </div>
             </div>
 
-          <div>
-            <img src="images/removebg.png" alt="PanCake" class="w-96 h-96 object-cover" />
-          </div>
+          
         </div>
       </div>
 
@@ -36,6 +43,7 @@
 
 <script>
 export default {
+    name: 'Showcase'
 
 }
 </script>
