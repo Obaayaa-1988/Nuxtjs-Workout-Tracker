@@ -16,8 +16,10 @@
           border border-gray-100
         ">
         <div class="flex justify-around">
-          <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">CHOOSE A WORKOUT</h2>
-          <div> </div>
+          <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
+            CHOOSE A WORKOUT
+          </h2>
+          <div></div>
 
           <div>
             <img src="images/removebg.png" alt="PanCake" class="w-96 h-96 object-cover" />
@@ -39,100 +41,119 @@
         <div>
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!---cards here-->
-            <div class="bg-red-200 rounded-3xl cursor-pointer">
-              <div class="flex justify-center pt-16">
-                <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
-              </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Legs</span>
-              </div>
-            </div>
 
-            <div class="
-                bg-lime-300
-                rounded-3xl
-                overflow-hidden
-                shadow-md
-                relative
-                hover:shadow-lg
-                cursor-pointer
-              ">
-              <div class="flex justify-center pt-16">
-                <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
+            <nuxt-link to="/legs">
+              <div class="bg-red-200 rounded-3xl cursor-pointer">
+                <div class="flex justify-center pt-16">
+                  <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                </div>
+                <div class="m-4">
+                  <span class="font-semibold text-2xl font-mono">Legs</span>
+                </div>
               </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Abs</span>
-              </div>
-            </div>
+            </nuxt-link>
 
-            <div class="
-                bg-pink-500
-                rounded-3xl
-                overflow-hidden
-                shadow-md
-                relative
-                hover:shadow-lg
-                cursor-pointer
-              ">
-              <div class="flex justify-center pt-16">
-                <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
+            <nuxt-link to="/abs">
+              <div class="
+                  bg-lime-300
+                  rounded-3xl
+                  overflow-hidden
+                  shadow-md
+                  relative
+                  hover:shadow-lg
+                  cursor-pointer
+                ">
+                <div class="flex justify-center pt-16">
+                  <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                </div>
+                <div class="m-4">
+                  <span class="font-semibold text-2xl font-mono">Abs</span>
+                </div>
               </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Glutes</span>
-              </div>
-            </div>
+            </nuxt-link>
 
-            <div class="
-                bg-teal-400
-                rounded-3xl
-                overflow-hidden
-                shadow-md
-                relative
-                hover:shadow-lg
-                cursor-pointer
-              ">
-              <div class="flex justify-center pt-16">
-                <img src="images/chest.png" alt="PanCake" class="w-36 h-36 object-cover" />
-              </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Chest</span>
-                <!-- <span class="block text-gray-500 text-sm">See Variations</span> -->
-              </div>
-            </div>
+            <nuxt-link to="/glutes"> 
 
-            <div class="
-                bg-yellow-300
-                rounded-3xl
-                overflow-hidden
-                shadow-md
-                relative
-                hover:shadow-lg
-                cursor-pointer
-              ">
-              <div class="flex justify-center pt-16">
-                <img src="images/arms.png" alt="PanCake" class="w-36 h-36 object-cover" />
+              <div class="
+                  bg-pink-500
+                  rounded-3xl
+                  overflow-hidden
+                  shadow-md
+                  relative
+                  hover:shadow-lg
+                  cursor-pointer
+                ">
+                <div class="flex justify-center pt-16">
+                  <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                </div>
+                <div class="m-4">
+                  <span class="font-semibold text-2xl font-mono">Glutes</span>
+                </div>
               </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Arms</span>
-              </div>
-            </div>
+            </nuxt-link>
 
-            <div class="
-                bg-cyan-600
-                rounded-3xl
-                overflow-hidden
-                shadow-md
-                relative
-                hover:shadow-lg
-                cursor-pointer
-              ">
-              <div class="flex justify-center pt-16">
-                <img src="images/full.png" alt="PanCake" class="w-36 h-36 object-cover" />
+            <nuxt-link to="/chest">
+              
+              <div class="
+                  bg-teal-400
+                  rounded-3xl
+                  overflow-hidden
+                  shadow-md
+                  relative
+                  hover:shadow-lg
+                  cursor-pointer
+                ">
+                <div class="flex justify-center pt-16">
+                  <img src="images/chest.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                </div>
+                <div class="m-4">
+                  <span class="font-semibold text-2xl font-mono">Chest</span>
+                  
+                </div>
               </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Full Body</span>
+            </nuxt-link>
+
+            <nuxt-link to="/arms"> 
+
+              <div class="
+                  bg-yellow-300
+                  rounded-3xl
+                  overflow-hidden
+                  shadow-md
+                  relative
+                  hover:shadow-lg
+                  cursor-pointer
+                ">
+                <div class="flex justify-center pt-16">
+                  <img src="images/arms.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                </div>
+                <div class="m-4">
+                  <span class="font-semibold text-2xl font-mono">Arms</span>
+                </div>
               </div>
-            </div>
+            </nuxt-link>
+
+            <nuxt-link to="/full"> 
+
+
+              <div class="
+                  bg-cyan-600
+                  rounded-3xl
+                  overflow-hidden
+                  shadow-md
+                  relative
+                  hover:shadow-lg
+                  cursor-pointer
+                ">
+                <div class="flex justify-center pt-16">
+                  <img src="images/full.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                </div>
+                <div class="m-4">
+                  <span class="font-semibold text-2xl font-mono">Full Body</span>
+                </div>
+              </div>
+            </nuxt-link>
+
           </div>
         </div>
 

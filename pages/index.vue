@@ -1,5 +1,4 @@
 <template>
-  <!-- <Tutorial/> -->
   <Home />
 </template>
 
