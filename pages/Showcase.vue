@@ -11,10 +11,18 @@
           border border-gray-100
         ">
         <div class="flex justify-around">
-          <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
-            CHOOSE A WORKOUT
-          </h2>
-          <div></div>
+            <div> 
+
+                <div> 
+    
+                    <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28 pb-12">
+                      HELLO WELCOME TO MYFIT
+                    </h2>
+                </div>
+              <div>
+                <nuxt-link to="/" class="text-primary ml-2 rounded py-3 px-8  text-xl font-bold cursor-pointer tracking-wider border-primary md:border-2 hover:bg-blue-300 hover:text-white transition ease-out duration-500 bg-cyan-600 font-mono outline-none text-white" >Get Started</nuxt-link>
+              </div>
+            </div>
 
           <div>
             <img src="images/removebg.png" alt="PanCake" class="w-96 h-96 object-cover" />
