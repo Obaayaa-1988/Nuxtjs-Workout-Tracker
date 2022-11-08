@@ -66,7 +66,7 @@
             </div>
 
             <div class="
-                bg-red-500
+                bg-pink-500
                 rounded-3xl
                 overflow-hidden
                 shadow-md
