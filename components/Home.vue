@@ -14,6 +14,8 @@
           backdrop-filter backdrop-blur-sm
           bg-opacity-40
           border border-gray-100
+          shadow-lg shadow-gray-500/50
+          
         ">
         <div class="flex justify-around">
           <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
@@ -35,7 +37,7 @@
         </div>
 
         <header>
-          <h3 class="text-xl font-semibold pt-12">Area Of Focus</h3>
+          <h3 class="text-xl font-semibold pt-12 font-mono">Area Of Focus</h3>
         </header>
 
         <div>
@@ -43,7 +45,7 @@
             <!---cards here-->
 
             <nuxt-link to="/LegWorkOut">
-              <div class="bg-red-200 rounded-3xl cursor-pointer">
+              <div class="bg-red-200 rounded-3xl cursor-pointer shadow-lg shadow-gray-500/50 ">
                 <div class="flex justify-center pt-16">
                   <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
                 </div>
@@ -61,6 +63,7 @@
                   shadow-md
                   relative
                   hover:shadow-lg
+                  shadow-gray-500/50
                   cursor-pointer
                 ">
                 <div class="flex justify-center pt-16">
@@ -78,6 +81,7 @@
                   bg-pink-500
                   rounded-3xl
                   overflow-hidden
+                  shadow-gray-500/50
                   shadow-md
                   relative
                   hover:shadow-lg
@@ -101,6 +105,7 @@
                   shadow-md
                   relative
                   hover:shadow-lg
+                  shadow-gray-500/50
                   cursor-pointer
                 ">
                 <div class="flex justify-center pt-16">
@@ -122,6 +127,7 @@
                   shadow-md
                   relative
                   hover:shadow-lg
+                  shadow-gray-500/50
                   cursor-pointer
                 ">
                 <div class="flex justify-center pt-16">
@@ -143,6 +149,7 @@
                   shadow-md
                   relative
                   hover:shadow-lg
+                  shadow-gray-500/50
                   cursor-pointer
                 ">
                 <div class="flex justify-center pt-16">

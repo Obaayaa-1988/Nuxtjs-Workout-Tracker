@@ -1,6 +1,6 @@
 <template>
-   <div class="bg-indigo-200 h-full">
-      <aside class="w-64" aria-label="Sidebar">
+   <div class="bg-indigo-200 h-full  ">
+      <aside class="w-64 shadow-gray-500/50 " aria-label="Sidebar">
          <nav class="text-right">
             <div class="flex justify-evenly items-center">
                <h1 class="font-extrabold upppercase p-8  text-pink-500 text-lg font-mono">
@@ -17,10 +17,10 @@
             <div class="flex flex-col items-center gap-y-12 mt-8">
                <p class="w-24  pr-8">
                   <nuxt-link to="/profile" class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono text-neutral-500">Profile</span>
+                     <span class="text-lg font-semibold font-mono ">Profile</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                           class="w-7 h-7 font-semibold text-neutral-500">
+                           class="w-7 h-7 font-semibold">
                            <path stroke-linecap="round" stroke-linejoin="round"
                               d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
