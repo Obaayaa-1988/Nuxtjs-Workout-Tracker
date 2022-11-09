@@ -37,7 +37,7 @@
                 <!------------------------sign up buttons section-->
             </div>
 
-            <div class="mt-16">
+            <div class="mt-10">
                 <div class="text-center">
                     <nuxt-link to="/"
                         class="text-primary ml-2 rounded-lg py-5 px-32  text-xl font-bold cursor-pointer tracking-wider border-primary md:border-2  hover:text-black transition ease-out duration-500 font-mono outline-none bg-pink-600 mb-8">
