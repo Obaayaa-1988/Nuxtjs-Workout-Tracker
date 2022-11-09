@@ -5,7 +5,7 @@
     </div>
 
     <div class="flex-1">
-      <div class="h-1/4 w-full bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
+      <div class="h-1/4 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
         <div class="flex justify-around">
 
           <div>
@@ -34,14 +34,14 @@
         </div>
 
         <header>
-          <h3 class="text-2xl font-bold pt-12 font-mono">Pick Your WorkOut Days</h3>
+          <h3 class="text-2xl font-bold py-12 font-mono">Pick Your WorkOut Days</h3>
         </header>
 
         <!------------------pick workout start-->
 
 
         <div
-          class="h-1/4 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100  ">
+          class="h-1/4 w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100  ">
           <div class="flex justify-around">
         
             <div class="text-center pt-20">
@@ -52,8 +52,8 @@
 
             <div> 
               <button id="dropdownCheckboxButton" data-dropdown-toggle="dropdownDefaultCheckbox"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                type="button">Pick A Day <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor"
+                class="text-white bg-pink-600  hover:bg-blue-800 mt-20 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                type="button">Pick A Workout Day <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg></button>
@@ -121,7 +121,7 @@
             <!------------dropdown end-->
         
             <div >
-              <img src="images/stopwatch-remove.png" alt="PanCake" class="w-44 h-44 object-cover rounded-full mt-12" />
+              <img src="images/stopwatch-remove.png" alt="PanCake" class="w-44 h-44 object-cover rounded-full mt-8" />
             </div>
 
           </div>
@@ -132,16 +132,16 @@
         <!-------------------------pick workout end-->
 
 
-       
+        <header>
+          <h3 class="text-2xl font-bold pt-12 font-mono">Weekly Stats</h3>
+        </header>
 
 
 
         <div>
-          <div class="mt-8 grid lg:grid-cols-3 gap-10">
+          <div class="mt-8 grid lg:grid-cols-3">
             <!---cards here-->
-
-            <nuxt-link to="/LegWorkOut">
-              <div class="bg-red-200 rounded-3xl cursor-pointer">
+              <div class="bg-red-100  cursor-pointer">
                 <div class="flex justify-center pt-16">
                   <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
                 </div>
@@ -149,18 +149,10 @@
                   <span class="font-semibold text-2xl font-mono">Legs</span>
                 </div>
               </div>
-            </nuxt-link>
+           
 
-            <nuxt-link to="/AbsWorkOut">
-              <div class="
-                  bg-lime-300
-                  rounded-3xl
-                  overflow-hidden
-                  shadow-md
-                  relative
-                  hover:shadow-lg
-                  cursor-pointer
-                ">
+            
+              <div class=" bg-blue-200  overflow-hidden shadow-md hover:shadow-lg cursor-pointer">
                 <div class="flex justify-center pt-16">
                   <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
                 </div>
@@ -168,19 +160,10 @@
                   <span class="font-semibold text-2xl font-mono">Abs</span>
                 </div>
               </div>
-            </nuxt-link>
+           
 
-            <nuxt-link to="/GluteWorkOut">
-
-              <div class="
-                  bg-pink-500
-                  rounded-3xl
-                  overflow-hidden
-                  shadow-md
-                  relative
-                  hover:shadow-lg
-                  cursor-pointer
-                ">
+           
+              <div class=" bg-lime-200 overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer">
                 <div class="flex justify-center pt-16">
                   <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
                 </div>
@@ -188,70 +171,8 @@
                   <span class="font-semibold text-2xl font-mono">Glutes</span>
                 </div>
               </div>
-            </nuxt-link>
-
-            <nuxt-link to="/ChestWorkOut">
-
-              <div class="
-                  bg-teal-400
-                  rounded-3xl
-                  overflow-hidden
-                  shadow-md
-                  relative
-                  hover:shadow-lg
-                  cursor-pointer
-                ">
-                <div class="flex justify-center pt-16">
-                  <img src="images/chest.png" alt="PanCake" class="w-36 h-36 object-cover" />
-                </div>
-                <div class="m-4">
-                  <span class="font-semibold text-2xl font-mono">Chest</span>
-
-                </div>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/ArmsWorkOut">
-
-              <div class="
-                  bg-yellow-300
-                  rounded-3xl
-                  overflow-hidden
-                  shadow-md
-                  relative
-                  hover:shadow-lg
-                  cursor-pointer
-                ">
-                <div class="flex justify-center pt-16">
-                  <img src="images/arms.png" alt="PanCake" class="w-36 h-36 object-cover" />
-                </div>
-                <div class="m-4">
-                  <span class="font-semibold text-2xl font-mono">Arms</span>
-                </div>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/FullWorkOut">
-
-
-              <div class="
-                  bg-cyan-600
-                  rounded-3xl
-                  overflow-hidden
-                  shadow-md
-                  relative
-                  hover:shadow-lg
-                  cursor-pointer
-                ">
-                <div class="flex justify-center pt-16">
-                  <img src="images/full.png" alt="PanCake" class="w-36 h-36 object-cover" />
-                </div>
-                <div class="m-4">
-                  <span class="font-semibold text-2xl font-mono">Full Body</span>
-                </div>
-              </div>
-            </nuxt-link>
-
+           
+            
           </div>
         </div>
 
