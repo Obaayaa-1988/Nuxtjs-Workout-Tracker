@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <div class="
           h-screen
           w-full
@@ -10,8 +9,7 @@
           backdrop-filter backdrop-blur-sm
           bg-opacity-40
           border border-gray-100
-          md
-          
+          md  
 
         ">
             <div class="flex justify-around mb:block">
@@ -26,11 +24,6 @@
                             WELCOME TO MYFIT APP
                         </h2>
                     </div>
-                    <!-- <div>
-                        <nuxt-link to="/"
-                            class="text-primary ml-2 rounded py-4 px-10  text-xl font-bold cursor-pointer tracking-wider border-primary md:border-2 hover:bg-blue-300 hover:text-white transition ease-out duration-500 bg-pink-600 font-mono outline-none text-white">
-                            Get Started</nuxt-link>
-                    </div> -->
 
                 </div>
 

@@ -1,11 +1,7 @@
 <template>
-  <div class="flex min-h-screen">
-    <div>
-      <Navigation />
-    </div>
-
-    <div class="flex-1">
-      <div class="h-1/4 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
+  <div>
+    <div >
+      <div class="h-2/4 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
         <div class="flex justify-around">
 
           <div>
@@ -175,10 +171,6 @@
             
           </div>
         </div>
-
-        <div class="pt-20">
-          <FooterTracker />
-        </div>
       </main>
     </div>
   </div>
@@ -187,6 +179,7 @@
 <script>
 export default {
   name: "Profile",
+  layout: "default"
   
 };
 </script>
