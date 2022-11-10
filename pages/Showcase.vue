@@ -1,17 +1,6 @@
 <template>
     <div>
-        <div class="
-          h-screen
-          w-full
-          bg-indigo-200
-          rounded-md
-          bg-clip-padding
-          backdrop-filter backdrop-blur-sm
-          bg-opacity-40
-          border border-gray-100
-          md  
-
-        ">
+        <div class=" h-screen w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 md ">
             <div class="flex justify-around mb:block">
                 <div>
                     <img src="images/freework-removebg.png" alt="PanCake" class="w-full h-full object-cover" />
@@ -65,6 +54,7 @@
 <script>
 export default {
     name: 'Showcase',
+    layout: 'default',
 
     data() {
         return {
