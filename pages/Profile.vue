@@ -2,12 +2,12 @@
   <div>
     <div>
       <div
-        class="h-80 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
+        class="h-64 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
         <div class="flex justify-around">
 
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-6 h-6 font-extrabold mt-28">
+              stroke="currentColor" class="w-6 h-6 font-extrabold mt-32">
               <path stroke-linecap="round" stroke-linejoin="round"
                 d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
             </svg>
@@ -19,8 +19,8 @@
           </h2>
 
 
-          <div class="bg-indigo-200 h-40 w-40 rounded-full">
-            <img src="images/lady.jpg" alt="PanCake" class="w-32 h-32 object-cover rounded-full mt-12" />
+          <div class="bg-indigo-200 h-40 w-40 rounded-full mt-12">
+            <img src="images/lady.jpg" alt="PanCake" class="w-32 h-32 object-cover rounded-full mt-8" />
           </div>
         </div>
       </div>
