@@ -150,7 +150,7 @@
                 <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Legs</span>
+                <span class="font-semibold text-2xl font-mono">Kcal</span>
               </div>
             </div>
 
@@ -161,7 +161,7 @@
                 <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Abs</span>
+                <span class="font-semibold text-2xl font-mono">Sleep HRS</span>
               </div>
             </div>
 
@@ -172,7 +172,7 @@
                 <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
               </div>
               <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Glutes</span>
+                <span class="font-semibold text-2xl font-mono">Water</span>
               </div>
             </div>
 
