@@ -2,7 +2,7 @@
   <div>
     <div>
       <div
-        class="h-2/4 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
+        class="h-80 w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
         <div class="flex justify-around">
 
           <div>
