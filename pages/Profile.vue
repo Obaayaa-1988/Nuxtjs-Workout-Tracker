@@ -145,9 +145,9 @@
         <div>
           <div class="mt-8 grid lg:grid-cols-3">
             <!---cards here-->
-            <div class="bg-red-100  cursor-pointer">
+            <div class="bg-red-100  cursor-pointer rounded-l-lg ">
               <div class="flex justify-center pt-16">
-                <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                <!-- <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Kcal</span>
@@ -158,7 +158,7 @@
 
             <div class=" bg-blue-200  overflow-hidden shadow-md hover:shadow-lg cursor-pointer">
               <div class="flex justify-center pt-16">
-                <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                <!-- <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Sleep HRS</span>
@@ -167,9 +167,9 @@
 
 
 
-            <div class=" bg-lime-200 overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer">
+            <div class=" bg-lime-200 overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer rounded-r-lg">
               <div class="flex justify-center pt-16">
-                <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
+                <!-- <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
               </div>
               <div class="m-4">
                 <span class="font-semibold text-2xl font-mono">Water</span>
