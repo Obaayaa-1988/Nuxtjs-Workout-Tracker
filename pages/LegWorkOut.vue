@@ -9,7 +9,7 @@
           <div></div>
       
           <div>
-            <img src="images/legs.png" alt="PanCake" class="w-96 h-96 object-cover" />
+            <img src="images/legs.png" alt="PanCake" class="w-80 h-80 object-cover" />
           </div>
         </div>
       </div>
