@@ -42,7 +42,8 @@
           <div class="flex justify-around">
 
             <div class="text-center pt-20">
-              <p class="font-bold font-mono text-lg">Wednesday 9TH November 2022</p>
+              <!-- <p class="font-bold font-mono text-lg">Wednesday 9TH November 2022</p> -->
+              <p class="font-bold font-mono text-lg">{{ new Date()}}</p>
             </div>
 
             <!---------dropdown  start-->
@@ -143,7 +144,7 @@
 
 
         <div>
-          <div class="mt-8 grid lg:grid-cols-3">
+          <div class="mt-8 grid lg:grid-cols-4 ">
             <!---cards here-->
             <div class="bg-red-300  cursor-pointer rounded-l-lg bg-opacity-40  ">
               <div class="flex justify-center pt-16">
@@ -168,6 +169,14 @@
 
 
             <div class=" bg-lime-300 overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer rounded-r-lg bg-opacity-40">
+              <div class="flex justify-center pt-16">
+                <!-- <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
+              </div>
+              <div class="m-4">
+                <span class="font-semibold text-2xl font-mono">Steps</span>
+              </div>
+            </div>
+            <div class=" bg-white overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer rounded-r-lg bg-opacity-40">
               <div class="flex justify-center pt-16">
                 <!-- <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
               </div>
