@@ -7,7 +7,7 @@
                 <Nuxt />
 
             </div>
-            <div class="py-16">
+            <div>
                 <FooterTracker />
 
             </div>
