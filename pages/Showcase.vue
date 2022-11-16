@@ -37,7 +37,7 @@
                 <br>
                 <div class="text-center" >
                      <span >
-                        Not A User?<nuxt-link to="/" class="text-cyan-500"> Sign Up</nuxt-link>
+                        Not A User?<nuxt-link to="/SignUp" class="text-cyan-500"> Sign Up</nuxt-link>
                     </span>
                 </div>
             
