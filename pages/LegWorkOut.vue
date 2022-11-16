@@ -26,10 +26,10 @@
       
         <!----------------------start cardio cards-->
         <div class="mt-8 pb-24 ">
-          <nuxt-link to="/cardio">
+          <nuxt-link to="/LegPresses">
             <div class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto">
               <div class="flex justify-between">
-                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">Leg Presses</div>
+                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono "> One Leg Squat</div>
 
                  <div >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-cyan-600 mr-8">
@@ -65,7 +65,7 @@
             <div
               class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mx-auto ">
               <div class=" flex justify-between">
-                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">GoodMornings</div>
+                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">Leg Presses</div>
                 <div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-cyan-600 mr-8">
                   <path
