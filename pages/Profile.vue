@@ -45,7 +45,7 @@
        
         <!----------------------start cardio cards-->
         <div class="mt-8 grid lg:grid-cols-3 gap-10 px-12 pb-24">
-          <nuxt-link to="/cardio">
+          <nuxt-link to="/CreateWorkout">
             <div class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
               <div >
                 
