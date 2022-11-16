@@ -25,170 +25,77 @@
         </div>
       </div>
 
-      <main class="px-16 py-6 md:col-span-2">
-        <div class="flex justify-center md:justify-end">
+      <!------------start---new section-->
 
-        </div>
+      <section class="bg-gradient-to-r from-green-400 to-blue-500 w-full h-full  px-16 py-6 md:col-span-2 ">
 
-        <header>
-          <h3 class="text-2xl font-bold py-12 font-mono">Pick Your WorkOut Days</h3>
-        </header>
-
-        <!------------------pick workout start-->
-
-
-        <div
-          class="h-1/4 w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100  ">
-          <div class="flex justify-around">
-
-            <div class="text-center pt-20">
-              <!-- <p class="font-bold font-mono text-lg">Wednesday 9TH November 2022</p> -->
-              <p class="font-bold font-mono text-lg">{{ new Date()}}</p>
-            </div>
-
-            <!---------dropdown  start-->
-
-            <div>
-              <button id="dropdownCheckboxButton" data-dropdown-toggle="dropdownDefaultCheckbox"
-                class="text-white bg-pink-600  hover:bg-blue-800 mt-20 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                type="button">Pick A Workout Day <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none"
-                  stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg></button>
-
-              <!-- Dropdown menu -->
-              <div id="dropdownDefaultCheckbox"
-                class="hidden z-10 w-48 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
-                data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom"
-                style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 410px);">
-                <ul class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200"
-                  aria-labelledby="dropdownCheckboxButton">
-                  <li>
-                    <div class="flex items-center">
-                      <input id="checkbox-item-1" type="checkbox" value=""
-                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                      <label for="checkbox-item-1"
-                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Monday</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <input checked="" id="checkbox-item-2" type="checkbox" value=""
-                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                      <label for="checkbox-item-2"
-                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Tuesday</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <input id="checkbox-item-3" type="checkbox" value=""
-                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                      <label for="checkbox-item-3"
-                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Wednesday
-                      </label>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="flex items-center">
-                      <input id="checkbox-item-3" type="checkbox" value=""
-                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                      <label for="checkbox-item-3"
-                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Thursday</label>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="flex items-center">
-                      <input id="checkbox-item-3" type="checkbox" value=""
-                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                      <label for="checkbox-item-3"
-                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Friday</label>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="flex items-center">
-                      <input id="checkbox-item-3" type="checkbox" value=""
-                        class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                      <label for="checkbox-item-3"
-                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Saturday</label>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-
-            </div>
-
-
-
-            <!------------dropdown end-->
-
-            <div>
-              <img src="images/stopwatch-remove.png" alt="PanCake" class="w-44 h-44 object-cover rounded-full mt-8" />
-            </div>
-
-          </div>
-        </div>
-
-
-
-        <!-------------------------pick workout end-->
-
-
-        <header>
-          <h3 class="text-2xl font-bold pt-12 font-mono">Weekly Stats</h3>
-        </header>
-
-
-
+        <!--------start---------current date and stopwatch-->
         <div>
-          <div class="mt-8 grid lg:grid-cols-4 ">
-            <!---cards here-->
-            <div class="bg-red-300  cursor-pointer rounded-l-lg bg-opacity-40  ">
-              <div class="flex justify-center pt-16">
-                <!-- <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
-              </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Kcal</span>
-              </div>
-            </div>
+          
 
-
-
-            <div class=" bg-blue-300  overflow-hidden shadow-md hover:shadow-lg cursor-pointer bg-opacity-40">
-              <div class="flex justify-center pt-16">
-                <!-- <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
-              </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Sleep HRS</span>
-              </div>
-            </div>
-
-
-
-            <div class=" bg-lime-300 overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer rounded-r-lg bg-opacity-40">
-              <div class="flex justify-center pt-16">
-                <!-- <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
-              </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Steps</span>
-              </div>
-            </div>
-            <div class=" bg-white overflow-hidden shadow-md relative hover:shadow-lg cursor-pointer rounded-r-lg bg-opacity-40">
-              <div class="flex justify-center pt-16">
-                <!-- <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" /> -->
-              </div>
-              <div class="m-4">
-                <span class="font-semibold text-2xl font-mono">Steps</span>
-              </div>
-            </div>
-
-
-          </div>
         </div>
-      </main>
+
+        <!-----------------stopwatch end------->
+       
+        <!----------------------start cardio cards-->
+        <div class="mt-8 grid lg:grid-cols-3 gap-10 px-12 pb-24">
+          <nuxt-link to="/cardio">
+            <div class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+              <div >
+                
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Create A Workout</div>
+                <div class="pl-28 pt-8" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-16 h-16">
+                  <path
+                    d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                </svg>
+                </div>
+      
+              </div>
+      
+            </div>
+          </nuxt-link>
+      
+      
+          <nuxt-link to="/cardio">
+            <div class="bg-white  w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+              <div class="justify-center">
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Set Workout Goals</div>
+                <div class="pl-28 pt-8" >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-16 h-16">
+                    <path
+                      d="M104 96H56c-13.3 0-24 10.7-24 24v104H8c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h24v104c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm528 128h-24V120c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v272c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h24c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM456 32h-48c-13.3 0-24 10.7-24 24v168H256V56c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v400c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h128v168c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24z" />
+                  </svg>
+                 
+                </div>
+      
+      
+              </div>
+      
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/cardio">
+            <div class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+              <div class="justify-center">
+                <div>
+                  
+                </div>
+      
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">WALKING</div>
+      
+              </div>
+            </div>
+          </nuxt-link>
+      
+        </div>
+      
+        <!-------------end cardio cards only-->
+      
+      </section>
+     
+
+
+      <!------------end new section------->
     </div>
   </div>
 </template>
