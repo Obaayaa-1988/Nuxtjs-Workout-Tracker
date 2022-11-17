@@ -1,7 +1,7 @@
 <template>
     <div>
         <div
-            class="bg-gradient-to-r from-green-400 to-blue-500 h-screen w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 md ">
+            class="bg-gradient-to-r from-sky-500 to-indigo-500 h-screen w-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 md ">
             <section class="h-screen">
                 <div class="container px-6 py-12 h-full">
                     <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
