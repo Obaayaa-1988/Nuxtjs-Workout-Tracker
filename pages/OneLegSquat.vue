@@ -1,9 +1,9 @@
 <template>
     <div>
         <section>
-            <div class="bg-[url('/static/images/lady.jpg')]">
+            <!-- <div class="bg-[url('/static/images/lady.jpg')]">
                
-            </div>
+            </div> -->
 
 
             <!-- <div class="flex justify-center py-8"> 
