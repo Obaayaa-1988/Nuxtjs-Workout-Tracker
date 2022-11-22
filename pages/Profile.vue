@@ -63,7 +63,7 @@
           </nuxt-link>
       
       
-          <nuxt-link to="/cardio">
+          <nuxt-link to="/WorkoutGoal">
             <div class="bg-white  w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
               <div class="justify-center">
                 <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Set Workout Goals</div>
@@ -127,6 +127,76 @@
           </div>
         
         </div>
+        <!-------------------------------Daily Goals ----section-->
+        <div class="mt-8 grid lg:grid-cols-2  gap-10 px-12 pb-24 mx-auto">
+            <div
+              class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+              <div>
+        
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Create A Workout</div>
+                <div class="pl-28 pt-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-16 h-16 fill-pink-500">
+                    <path
+                      d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                  </svg>
+                </div>
+        
+              </div>
+        
+            </div>
+        
+        
+            <div
+              class="bg-white  w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+              <div class="justify-center">
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Set Workout Goals</div>
+                <div class="pl-28 pt-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-16 h-16 fill-lime-400">
+                    <path
+                      d="M104 96H56c-13.3 0-24 10.7-24 24v104H8c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h24v104c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm528 128h-24V120c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v272c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h24c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM456 32h-48c-13.3 0-24 10.7-24 24v168H256V56c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v400c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h128v168c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24z" />
+                  </svg>
+        
+                </div>
+        
+        
+              </div>
+        
+            </div>
+          
+            <div
+              class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+              <div class="justify-center">
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Pick Calender</div>
+                <div class="pl-28 pt-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-16 h-16 fill-purple-600">
+                    <path
+                      d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z" />
+                  </svg>
+                </div>
+        
+        
+              </div>
+            </div>
+        
+          
+            <div
+              class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+              <div class="justify-center">
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Pick Calender</div>
+                <div class="pl-28 pt-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-16 h-16 fill-purple-600">
+                    <path
+                      d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z" />
+                  </svg>
+                </div>
+        
+        
+              </div>
+            </div>
+         
+        
+        </div>
+
         
      
       
