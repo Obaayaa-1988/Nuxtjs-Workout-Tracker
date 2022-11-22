@@ -30,6 +30,11 @@
                                     <input type="password"
                                         class="form-control block w-1/2 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
                                 </div>
+                                <div class="mb-6">
+                                    <label class="font-bold font-mono">Rest</label>
+                                    <input type="password"
+                                        class="form-control block w-1/2 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
+                                </div>
 
 
                                 <!-- Submit button -->
