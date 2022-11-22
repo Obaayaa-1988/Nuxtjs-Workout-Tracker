@@ -104,7 +104,7 @@
           <div> 
             <h1 class="text-white text-2xl font-mono font-extrabold text-center my-8">Recently Added Workouts</h1>
           </div>
-          <div class="flex justify-between bg-purple-300 w-2/3 py-5 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto ">
+          <div class="flex justify-between bg-purple-300 w-2/3 py-5 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto ">
             <div class="text-white ml-4 text-xl font-extrabold font-mono "> Hip Thrust </div>
         
             <div class="text-white text-xl font-extrabold font-mono ">
@@ -118,7 +118,7 @@
             </div>
 
             <div> 
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-red-500 mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-red-500 mr-4 cursor-pointer">
                 <path
                   d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z" />
               </svg>
