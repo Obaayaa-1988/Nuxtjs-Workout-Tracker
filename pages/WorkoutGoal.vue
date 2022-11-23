@@ -9,7 +9,7 @@
                             <img src="images/work-create-remove.png" />
                         </div>
                         <div class="md:w-8/12 lg:w-5/12 lg:ml-20">
-                            <form class="bg-gray-100 py-10 px-10 rounded text-lg">
+                            <form class="bg-white py-10 px-10 rounded-md text-lg">
                                 <h1 class="text-center py-4 font-extrabold font-mono"> Create A Workout Goal</h1>
 
                                 <!-- Email input -->
