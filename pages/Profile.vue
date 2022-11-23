@@ -152,7 +152,7 @@
         <!-------------------------------Daily Goals ----section-->
         <div class="mt-8 grid lg:grid-cols-3  gap-10 px-12 pb-24 mx-auto">
           <div
-            class="bg-cyan-100   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+            class="bg-cyan-200   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
             <div>
               <div class="text-blue ml-4 text-3xl font-extrabold font-mono pt-4">Kcal </div>
               <div class=" pt-8">
@@ -161,7 +161,7 @@
                     d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z" />
                 </svg>
 
-                <h1 class="text-xl font-extrabold pl-12">1500</h1>
+                <h1 class="text-xl  pl-12">1500</h1>
               </div>
         
             </div>
@@ -170,7 +170,7 @@
         
         
           <div
-            class="bg-purple-100  w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+            class="bg-purple-200  w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
             <div class="justify-center">
               <div class="text-blue ml-4 text-3xl font-extrabold font-mono pt-4">Weight</div>
               <div class=" pt-8">
@@ -178,7 +178,7 @@
                   <path
                     d="M208 48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zM152 352V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.9s-34.8 4.2-43.9-10.9L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152z" />
                 </svg>
-                <h1 class="text-xl font-extrabold pl-12">56KG</h1>
+                <h1 class="text-xl  pl-12">56KG</h1>
         
               </div>
         
@@ -188,7 +188,7 @@
           </div>
         
           <div
-            class="bg-orange-100   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+            class="bg-orange-200   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
             <div class="justify-center">
               <div class="text-blue ml-4 text-3xl font-extrabold font-mono pt-4">Sleep</div>
               <div class=" pt-8">
@@ -196,7 +196,7 @@
                 <path
                   d="M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zM176 288c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80s-35.8 80-80 80z" />
               </svg>
-              <h1 class="text-xl font-extrabold pl-12"> 7 HRS</h1>
+              <h1 class="text-xl  pl-12"> 7 HRS</h1>
               </div>
         
         
@@ -206,7 +206,7 @@
         
         
           <div
-            class="bg-yellow-100   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+            class="bg-yellow-200   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
             <div class="justify-center">
               <div class="text-blue ml-4 text-3xl font-extrabold font-mono pt-4">Water</div>
               <div class=" pt-8">
@@ -215,14 +215,14 @@
                     d="M88 0h80c13.3 0 24 10.7 24 24V64H64V24C64 10.7 74.7 0 88 0zM0 151.7c0-15.6 9-29.8 23.2-36.5l24.4-11.4c11-5.1 23-7.8 35.1-7.8h90.6c12.1 0 24.1 2.7 35.1 7.8l24.4 11.4c14.2 6.6 23.2 20.8 23.2 36.5c0 14.4-7.5 27-18.9 34.1c11.5 8.8 18.9 22.6 18.9 38.2c0 16.7-8.5 31.4-21.5 40c12.9 8.6 21.5 23.3 21.5 40s-8.5 31.4-21.5 40c12.9 8.6 21.5 23.3 21.5 40s-8.5 31.4-21.5 40c12.9 8.6 21.5 23.3 21.5 40c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48c0-16.7 8.5-31.4 21.5-40C8.5 415.4 0 400.7 0 384s8.5-31.4 21.5-40C8.5 335.4 0 320.7 0 304s8.5-31.4 21.5-40C8.5 255.4 0 240.7 0 224c0-15.6 7.4-29.4 18.9-38.2C7.5 178.7 0 166.1 0 151.7zM64 240c0 8.8 7.2 16 16 16h96c8.8 0 16-7.2 16-16s-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zM80 352c-8.8 0-16 7.2-16 16s7.2 16 16 16h96c8.8 0 16-7.2 16-16s-7.2-16-16-16H80z" />
                 </svg>
   
-                <h1 class="text-xl font-extrabold pl-12">2LTR</h1>
+                <h1 class="text-xl  pl-12">2LTR</h1>
               </div>
         
         
             </div>
           </div>
           <div
-            class="bg-red-100   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+            class="bg-red-200   w-56 h-60 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
             <div class="justify-center">
               <div class="text-blue ml-4 text-3xl font-extrabold font-mono pt-4">Steps</div>
               <div class=" pt-8">
@@ -231,7 +231,7 @@
                     d="M256 48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zM126.5 199.3c-1 .4-1.9 .8-2.9 1.2l-8 3.5c-16.4 7.3-29 21.2-34.7 38.2l-2.6 7.8c-5.6 16.8-23.7 25.8-40.5 20.2s-25.8-23.7-20.2-40.5l2.6-7.8c11.4-34.1 36.6-61.9 69.4-76.5l8-3.5c20.8-9.2 43.3-14 66.1-14c44.6 0 84.8 26.8 101.9 67.9L281 232.7l21.4 10.7c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3L247 287.3c-10.3-5.2-18.4-13.8-22.8-24.5l-9.6-23-19.3 65.5 49.5 54c5.4 5.9 9.2 13 11.2 20.8l23 92.1c4.3 17.1-6.1 34.5-23.3 38.8s-34.5-6.1-38.8-23.3l-22-88.1-70.7-77.1c-14.8-16.1-20.3-38.6-14.7-59.7l16.9-63.5zM68.7 398l25-62.4c2.1 3 4.5 5.8 7 8.6l40.7 44.4-14.5 36.2c-2.4 6-6 11.5-10.6 16.1L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L68.7 398z" />
                 </svg>
 
-              <h1 class="text-xl font-extrabold pl-12">3000</h1>
+              <h1 class="text-xl  pl-12">3000</h1>
               </div>
         
         
