@@ -248,9 +248,50 @@
 
       </section>
      
-
-
       <!------------end new section------->
+
+      <div>
+        <section class="h-screen">
+          <div class="container px-6 h-full">
+            <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+              <div class="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
+                <img src="images/work-create-remove.png" />
+              </div>
+              <div class="md:w-8/12 lg:w-5/12 lg:ml-20">
+      
+                <!-- <div>
+                          <h1 class=" text-2xl font-mono font-extrabold text-center">Recently Added Workouts</h1>
+                        </div>  -->
+                <div
+                  class="flex justify-between bg-purple-300 w-full py-5 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto ">
+                  <div class="text-white ml-4 text-xl font-extrabold font-mono "> Hip Thrust </div>
+      
+                  <div class="text-white text-xl font-extrabold font-mono ">
+                    <p> 3 Sets </p>
+                  </div>
+                  <div class="text-white text-xl font-extrabold font-mono ">
+                    <p> 6 Reps </p>
+                  </div>
+                  <div class="text-white  text-xl font-extrabold font-mono ">
+                    <p> 60 Seconds rest </p>
+                  </div>
+      
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                      class="w-6 h-6 fill-red-500 mr-4 cursor-pointer">
+                      <path
+                        d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z" />
+                    </svg>
+                  </div>
+      
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
     </div>
   </div>
 </template>
