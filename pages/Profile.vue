@@ -80,7 +80,7 @@
       
             </div>
           </nuxt-link>
-          <nuxt-link to="/cardio">
+          <nuxt-link to="/PickCalender">
             <div class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
               <div class="justify-center">
                 <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Pick Calender</div>
