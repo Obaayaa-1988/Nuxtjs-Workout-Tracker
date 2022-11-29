@@ -45,6 +45,42 @@
        
         <!----------------------start cardio cards-->
         <div class="mt-8 grid lg:grid-cols-3 gap-10 px-12 pb-24">
+
+          <nuxt-link to="/PickCalender">
+            <div
+              class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
+              <div class="justify-center">
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Pick Calender</div>
+                <div class="pl-28 pt-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-16 h-16 fill-purple-600">
+                    <path
+                      d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z" />
+                  </svg>
+                </div>
+          
+          
+              </div>
+            </div>
+          </nuxt-link>
+
+          <nuxt-link to="/WorkoutGoal">
+            <div
+              class="bg-white  w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
+              <div class="justify-center">
+                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Set Workout Goals</div>
+                <div class="pl-28 pt-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-16 h-16 fill-lime-400">
+                    <path
+                      d="M104 96H56c-13.3 0-24 10.7-24 24v104H8c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h24v104c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm528 128h-24V120c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v272c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h24c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM456 32h-48c-13.3 0-24 10.7-24 24v168H256V56c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v400c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h128v168c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24z" />
+                  </svg>
+          
+                </div>
+          
+          
+              </div>
+          
+            </div>
+          </nuxt-link>
           <nuxt-link to="/CreateWorkout">
             <div class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
               <div >
@@ -63,38 +99,8 @@
           </nuxt-link>
       
       
-          <nuxt-link to="/WorkoutGoal">
-            <div class="bg-white  w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
-              <div class="justify-center">
-                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Set Workout Goals</div>
-                <div class="pl-28 pt-8" >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-16 h-16 fill-lime-400">
-                    <path
-                      d="M104 96H56c-13.3 0-24 10.7-24 24v104H8c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h24v104c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm528 128h-24V120c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v272c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h24c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM456 32h-48c-13.3 0-24 10.7-24 24v168H256V56c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v400c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h128v168c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24z" />
-                  </svg>
-                 
-                </div>
-      
-      
-              </div>
-      
-            </div>
-          </nuxt-link>
-          <nuxt-link to="/cardio">
-            <div class="bg-white   w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center  ">
-              <div class="justify-center">
-                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4">Pick Calender</div>
-                <div class="pl-28 pt-8"  >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-16 h-16 fill-purple-600"  >
-                    <path
-                      d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z" />
-                  </svg>
-                </div>
-      
-      
-              </div>
-            </div>
-          </nuxt-link>
+          
+          
       
         </div>
         </section>
@@ -242,9 +248,50 @@
 
       </section>
      
-
-
       <!------------end new section------->
+
+      <div>
+        <section class="h-screen">
+          <div class="container px-6 h-full">
+            <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+              <div class="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
+                <img src="images/work-create-remove.png" />
+              </div>
+              <div class="md:w-8/12 lg:w-5/12 lg:ml-20">
+      
+                <!-- <div>
+                          <h1 class=" text-2xl font-mono font-extrabold text-center">Recently Added Workouts</h1>
+                        </div>  -->
+                <div
+                  class="flex justify-between bg-purple-300 w-full py-5 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto ">
+                  <div class="text-white ml-4 text-xl font-extrabold font-mono "> Hip Thrust </div>
+      
+                  <div class="text-white text-xl font-extrabold font-mono ">
+                    <p> 3 Sets </p>
+                  </div>
+                  <div class="text-white text-xl font-extrabold font-mono ">
+                    <p> 6 Reps </p>
+                  </div>
+                  <div class="text-white  text-xl font-extrabold font-mono ">
+                    <p> 60 Seconds rest </p>
+                  </div>
+      
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                      class="w-6 h-6 fill-red-500 mr-4 cursor-pointer">
+                      <path
+                        d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z" />
+                    </svg>
+                  </div>
+      
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
     </div>
   </div>
 </template>
