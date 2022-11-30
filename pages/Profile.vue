@@ -116,7 +116,7 @@
                 </div>
                 <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
                   <div
-                    class=" px-4 w-2/3 bg-white py-4 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto border-l-8 border-l-green-500">
+                    class=" px-4 w-2/3 bg-gray-50 py-4 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto border-l-8 border-l-green-500">
                     <div class="mb-4 text-xl font-extrabold font-mono"> Hip Thrust </div>
                     <div class="flex justify-between mb-4"> 
                       <div class=" text-xl font-mono ">
