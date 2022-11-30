@@ -1,7 +1,7 @@
 <template>
     <div>
     <div>
-        <section class="h-screen bg-gradient-to-r from-sky-500 to-indigo-500  ">
+        <section class=" bg-gradient-to-r from-sky-500 to-indigo-500  ">
             <div class="container px-6 py-12 h-full">
                 <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
                     <div class="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
