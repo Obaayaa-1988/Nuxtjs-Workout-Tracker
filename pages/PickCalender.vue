@@ -10,7 +10,7 @@
                         </div>
                         <div class="md:w-8/12 lg:w-5/12 lg:ml-20">
                             <form class="bg-white py-10 px-10 rounded-md text-lg">
-                                <h1 class="text-center py-4 font-extrabold font-mono"> Create A Workout Goal</h1>
+                                <h1 class="text-center py-4 font-extrabold font-mono"> Pick Workout Days</h1>
 
                                 <!-- Email input -->
                                 <div class="mb-6">
