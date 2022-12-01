@@ -107,7 +107,7 @@
 
         <!---------------------added workouts section------->
         <div>
-          <section class=" bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
+          <section class=" bg-blue-50 rounded-md ">
             <div class="container">  
               <h1 class="pt-12 text-center text-4xl font-mono font-extrabold">  ADDED WORKOUT</h1>
               <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
                   <div
-                    class=" px-4 w-2/3 bg-gray-50 py-4 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto border-l-8 border-l-green-500">
+                    class=" px-4 w-2/3 bg-white py-4 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto border-l-8 border-l-green-500">
                     <div class="mb-4 text-xl font-extrabold font-mono"> Hip Thrust </div>
                     <div class="flex justify-between mb-4"> 
                       <div class=" text-xl font-mono ">
@@ -154,7 +154,7 @@
 
       <!----------workout goal section-->
 
-      <section class="bg-gray-50 w-full h-full  px-16 py-6 md:col-span-2 "> 
+      <section class=" w-full h-full  px-16 py-6 md:col-span-2 "> 
         <div class="flex justify-center font-mono text-4xl  font-extrabold">
                     <h2 class="py-16"> MY GOALS</h2>
                   </div>
