@@ -38,7 +38,7 @@
 
 
                                 <!-- Submit button -->
-                                <nuxt-link to="/">
+                                <nuxt-link to="/Profile">
                                     <button type="submit"
                                         class="inline-block py-3 bg-gradient-to-r from-green-400 to-blue-500  text-white font-medium text-sm leading-snug  rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-1/2"
                                         data-mdb-ripple="true" data-mdb-ripple-color="light">
