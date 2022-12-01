@@ -304,8 +304,62 @@
                   </div>
                 </div>
     
-    
-    
+              </div>
+
+              <div
+                class=" px-4 w-2/3 bg-white py-4 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto border-l-8 border-l-green-500">
+                <div class="mb-4 text-xl font-extrabold font-mono"> Hip Thrust </div>
+                <div class="flex justify-between mb-4">
+                  <div class=" text-xl font-mono ">
+                    <p> 3 Sets </p>
+                  </div>
+                  <div class=" text-xl font-mono ">
+                    <p> 6 Reps </p>
+                  </div>
+              
+                </div>
+                <div class="flex justify-between">
+              
+                  <div class=" text-xl font-mono ">
+                    <p> 60 Secs Rest </p>
+                  </div>
+              
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-cyan-500 mr-4 cursor-pointer">
+                      <path
+                        d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z" />
+                    </svg>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div
+                class=" px-4 w-2/3 bg-white py-4 rounded overflow-hidden shadow-md hover:shadow-lg shadow-gray-500/50  mb-8 mx-auto border-l-8 border-l-green-500">
+                <div class="mb-4 text-xl font-extrabold font-mono"> Hip Thrust </div>
+                <div class="flex justify-between mb-4">
+                  <div class=" text-xl font-mono ">
+                    <p> 3 Sets </p>
+                  </div>
+                  <div class=" text-xl font-mono ">
+                    <p> 6 Reps </p>
+                  </div>
+              
+                </div>
+                <div class="flex justify-between">
+              
+                  <div class=" text-xl font-mono ">
+                    <p> 60 Secs Rest </p>
+                  </div>
+              
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-cyan-500 mr-4 cursor-pointer">
+                      <path
+                        d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z" />
+                    </svg>
+                  </div>
+                </div>
+              
               </div>
     
             </div>
