@@ -13,8 +13,13 @@
         </div>
       </div>
     </div>
+    <!---------------Image Section------------------>
 
-    <section class="bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 w-full h-full px-16 py-6 md:col-span-2 ">
+    
+
+    <!----------------------------->
+
+    <section class="bg-gradient-to-r from-sky-500 to-indigo-500 w-full h-full px-16 py-6 md:col-span-2 ">
     
       <!--------start---------current date and stopwatch-->
       <div class="flex justify-center py-8">
@@ -28,7 +33,7 @@
       <div class="mt-8 pb-24 ">
         <nuxt-link to="/OneLegSquat">
           <div
-            class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto">
+            class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
             <div class="flex justify-between">
               <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono "> Five Minutes Pilates</div>
     
@@ -47,7 +52,7 @@
     
         <nuxt-link to="/cardio">
           <div
-            class="bg-white  w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer  mb-8 mx-auto">
+            class="bg-white  w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer  mb-8 mx-auto border-l-8 border-l-orange-500">
             <div class=" flex justify-between">
               <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">Reverse Crunch</div>
               <div>
@@ -64,7 +69,7 @@
         </nuxt-link>
         <nuxt-link to="/LegPresses">
           <div
-            class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mx-auto ">
+            class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mx-auto border-l-8 border-l-orange-500 ">
             <div class=" flex justify-between">
               <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">Planks</div>
               <div>
