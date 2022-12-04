@@ -15,8 +15,8 @@
     </div>
     <!---------------Image Section------------------>
 
-    <div class="md:w-8/12 lg:w-6/12  md:mb-0 flex justify-center">
-      <img src="images/work-create-remove.png" />
+    <div class="md:w-8/12 lg:w-6/12  md:mb-0 text-center mx-auto">
+      <img src="images/pilates.jpg" />
     </div>
 
     <!----------------------------->
