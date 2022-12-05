@@ -17,7 +17,7 @@
 
             <!---------start of second main section-->
 
-            <main class="px-16 py-6 md:col-span-2">
+            <main class="px-16 py-6 md:col-span-2 pb-20 ">
                 <div>
                     <h3 class="text-xl font-semibold pt-12 font-mono">WEIGTH TRAINING</h3>
                 </div>
