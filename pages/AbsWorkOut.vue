@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class=" h-1/4 w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
+      class=" h-1/4 w-full bg-lime-300  ">
       <div class="flex justify-around">
         <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
           ABS WORKOUT
@@ -21,11 +21,11 @@
 
     <!----------------------------->
 
-    <section class="bg-gradient-to-r from-purple-700 to-pink-500 w-full h-full px-16 py-6 md:col-span-2 ">
+    <section class="bg-gradient-to-r from-blue-100 to-sky-100 w-full h-full px-16 py-6 md:col-span-2 ">
     
       <!--------start---------current date and stopwatch-->
       <div class="flex justify-center py-8">
-        <h1 class="text-xl font-semibold pt-8 font-mono text-white">ABS WORKOUT VARIATION</h1>
+        <h1 class="text-xl font-extrabold pt-8 font-mono ">ABS WORKOUT VARIATION</h1>
     
       </div>
     
