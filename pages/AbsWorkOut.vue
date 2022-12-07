@@ -21,7 +21,7 @@
 
     <!----------------------------->
 
-    <section class="bg-gradient-to-r from-sky-500 to-indigo-500 w-full h-full px-16 py-6 md:col-span-2 ">
+    <section class="bg-gradient-to-r from-purple-700 to-pink-500 w-full h-full px-16 py-6 md:col-span-2 ">
     
       <!--------start---------current date and stopwatch-->
       <div class="flex justify-center py-8">
