@@ -1,6 +1,6 @@
 <template>
     <div>
-    <div>
+    <!-- <div>
         <section class=" bg-gradient-to-r from-sky-500 to-indigo-500  ">
             <div class="container px-6 py-12 h-full">
                 <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
@@ -73,8 +73,27 @@
             </div>
         </section>
     
-    </div>
- 
+    </div> -->
+
+    <!----------------creating new section---------------->
+    <div>
+        <div
+            class=" h-1/4 w-full bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
+            <div class="flex justify-around">
+                <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-44">
+                    ONE LEG SQUAT
+                </h2>
+                <div></div>
+    
+                <div>
+                    <img src="images/removebg.png" alt="PanCake" class="w-96 h-96 object-cover" />
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!----------------creating new section---------------->
+    
     </div>
 </template>
 
