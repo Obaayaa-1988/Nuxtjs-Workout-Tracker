@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class=" h-1/4 w-full bg-lime-300  ">
+      class=" h-1/4 w-full bg-indigo-100  ">
       <div class="flex justify-around">
         <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
           ABS WORKOUT
