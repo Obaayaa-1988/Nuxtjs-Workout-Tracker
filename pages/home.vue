@@ -19,7 +19,7 @@
 
             <main class="px-16 py-6 md:col-span-2 pb-20 ">
                 <div>
-                    <h3 class="text-xl font-semibold pt-12 font-mono">WEIGTH TRAINING</h3>
+                    <h3 class="text-xl font-semibold pt-12 font-mono">WEIGHT TRAINING</h3>
                 </div>
                 <header>
                     <h3 class="text-xl font-semibold pt-12 font-mono">Area Of Focus</h3>
