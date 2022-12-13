@@ -13,11 +13,41 @@
         </div>
       </div>
     </div>
-    <!---------------Image Section------------------>
+    <!---------------Image Section---and text grid section--------------->
+    <div>
+      <section class=" rounded-md ">
+        <div class="container">
+         
+          <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+    
+            <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
+              <h1 class=" text-3xl font-mono font-extrabold"> ABDOMINAL WORKOUTS</h1>
 
-    <div class="md:w-8/12 lg:w-6/12  md:mb-0 text-center mx-auto">
-      <img src="images/pilates.jpg" />
+              <div> 
+                <p class="w-2/4 font-mono "> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English.</p>
+              </div>
+            </div>
+    
+            <div class="md:w-8/12 lg:w-6/12  md:mb-0">
+              <img src="images/pilates.jpg" />
+            </div>
+          </div>
+    
+        </div>
+      </section>
     </div>
+
+    
+
+
+
+
+
+    <!-- <div class="md:w-8/12 lg:w-6/12  md:mb-0 text-center mx-auto">
+      <img src="images/pilates.jpg" />
+    </div> -->
 
     <!----------------------------->
 
