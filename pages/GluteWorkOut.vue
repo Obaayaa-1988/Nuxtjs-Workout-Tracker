@@ -2,6 +2,13 @@
   <div>
     <div
       class=" h-1/4 w-full bg-indigo-300 rounded-b-3xl   bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
+      <nuxt-link to="/Home"> 
+        <svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512" class="w-10 h-10 font-extrabold cursor-pointer">
+          <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+        </svg>
+      </nuxt-link>
       <div class="flex justify-around">
         <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
           GLUTES WORKOUT
@@ -25,7 +32,7 @@
             </div>
     
             <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
-              <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-3/4 bg-pink-500 mb-7"> Glutes
+              <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-3/4 bg-pink-500 mb-7"> GLUTES
                 WORKOUTS</h1>
     
               <div>
@@ -47,7 +54,7 @@
     
       <!--------start---------current date and stopwatch-->
       <div class="flex justify-center py-8">
-        <h1 class="text-3xl font-extrabold pt-8 font-mono ">LEG WORKOUT VARIATION</h1>
+        <h1 class="text-3xl font-extrabold pt-8 font-mono ">GLUTES WORKOUT VARIATION</h1>
     
       </div>
     
