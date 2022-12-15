@@ -14,11 +14,37 @@
         </div>
       </div>
 
-      <section class="bg-gradient-to-r from-sky-500 to-indigo-500 w-full h-full px-16 py-6 md:col-span-2 ">
+      <div>
+        <section class=" rounded-md ">
+          <div class="container">
+      
+            <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+      
+              <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
+                <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-3/4 bg-lime-300 mb-7"> ABDOMINAL
+                  WORKOUTS</h1>
+      
+                <div>
+                  <p class="w-5/6 font-serif leading-10  "> It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its
+                    layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                </div>
+              </div>
+      
+              <div class="md:w-8/12 lg:w-6/12  md:mb-0">
+                <img src="images/pilates.jpg" />
+              </div>
+            </div>
+      
+          </div>
+        </section>
+      </div>
+
+      <section class="bg-gray-100  w-full h-full px-16 py-6 md:col-span-2 rounded ">
       
         <!--------start---------current date and stopwatch-->
         <div class="flex justify-center py-8">
-          <h1 class="text-xl font-semibold pt-8 font-mono text-white" >LEG WORKOUT VARIATION</h1>
+          <h1 class="text-3xl font-extrabold pt-8 font-mono ">ABS WORKOUT VARIATION</h1>
       
         </div>
       
@@ -27,16 +53,17 @@
         <!----------------------start cardio cards-->
         <div class="mt-8 pb-24 ">
           <nuxt-link to="/OneLegSquat">
-            <div class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
+            <div
+              class="bg-yellow-500  w-2/3 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
               <div class="flex justify-between">
-                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono "> One Leg Squat</div>
-
-                 <div >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-cyan-600 mr-8">
+                <div class=" ml-4 text-xl font-extrabold font-mono text-white"> Five Minutes Pilates</div>
+      
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-white mr-8">
                     <path
                       d="M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z" />
                   </svg>
-                </div> 
+                </div>
       
               </div>
       
@@ -46,14 +73,14 @@
       
           <nuxt-link to="/cardio">
             <div
-              class="bg-white  w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer  mb-8 mx-auto  border-l-8 border-l-yellow-500">
+              class="bg-green-400  w-2/3 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer  mb-8 mx-auto border-l-8 border-l-orange-500">
               <div class=" flex justify-between">
-                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">Machine Leg Extentions</div>
-                <div >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-cyan-600 mr-8" >
-                  <path
-                    d="M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z" />
-                </svg>
+                <div class="text-white ml-4 text-xl font-extrabold font-mono ">Reverse Crunch</div>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-white mr-8">
+                    <path
+                      d="M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z" />
+                  </svg>
                 </div>
       
       
@@ -63,14 +90,14 @@
           </nuxt-link>
           <nuxt-link to="/LegPresses">
             <div
-              class="bg-white w-1/2 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mx-auto border-l-8 border-l-green-500">
+              class="bg-purple-500  w-2/3 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mx-auto border-l-8 border-l-orange-500 ">
               <div class=" flex justify-between">
-                <div class="text-gray-600 ml-4 text-xl font-extrabold font-mono ">Leg Presses</div>
+                <div class="text-white ml-4 text-xl font-extrabold font-mono ">Planks</div>
                 <div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-cyan-600 mr-8">
-                  <path
-                    d="M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z" />
-                </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-8 h-8 fill-white mr-8">
+                    <path
+                      d="M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z" />
+                  </svg>
                 </div>
       
       
@@ -83,9 +110,6 @@
         <!-------------end cardio cards only-->
       
       </section>
-
-
-
       
 
 
