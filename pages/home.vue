@@ -2,7 +2,7 @@
     <div class="overflow-y-auto h-full">
         <div>
             <div
-                class=" h-1/4 w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
+                class=" h-1/4 w-full bg-indigo-300 rounded-b-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
                 <div class="flex justify-around">
                     <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-44">
                         CHOOSE A WORKOUT
@@ -102,7 +102,7 @@
 
             </main>
 
-            <section class="bg-gray-100 w-full h-3/4  px-16 py-6 md:col-span-2 ">
+            <section class="bg-sky-100 rounded-t-3xl rounded-b-3xl w-full h-3/4  px-16 py-6 md:col-span-2 ">
                 <div>
                     <h3 class="text-xl font-semibold pt-12 font-mono">CARDIO TRAINING</h3>
                 </div>
@@ -134,7 +134,7 @@
                     <div class=" bg-gradient-to-r from-green-400 to-blue-500 w-72 h-56 rounded-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer py-8 text-center">
                         <div class="justify-center">
                             <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-28 h-28  fill-white " >
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="w-28 h-28  fill-white ml-3" >
                                 <path
                                     d="M400 96a48 48 0 1 0-48-48 48 48 0 0 0 48 48zm-4 121a31.9 31.9 0 0 0 20 7h64a32 32 0 0 0 0-64h-52.78L356 103a31.94 31.94 0 0 0-40.81.68l-112 96a32 32 0 0 0 3.08 50.92L288 305.12V416a32 32 0 0 0 64 0V288a32 32 0 0 0-14.25-26.62l-41.36-27.57 58.25-49.92zm116 39a128 128 0 1 0 128 128 128 128 0 0 0-128-128zm0 192a64 64 0 1 1 64-64 64 64 0 0 1-64 64zM128 256a128 128 0 1 0 128 128 128 128 0 0 0-128-128zm0 192a64 64 0 1 1 64-64 64 64 0 0 1-64 64z" />
                             </svg>
