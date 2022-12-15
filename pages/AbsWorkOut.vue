@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class=" h-1/4 w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
+      class=" h-1/4 w-full bg-indigo-300 rounded-b-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50  ">
       <div class="flex justify-around">
         <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
           ABS WORKOUT
@@ -19,6 +19,9 @@
         <div class="container">
          
           <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+            <div class="md:w-8/12 lg:w-6/12  md:mb-0">
+              <img src="images/pilates.jpg" />
+            </div>
     
             <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
               <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-3/4 bg-lime-300 mb-7"> ABDOMINAL WORKOUTS</h1>
@@ -29,9 +32,7 @@
               </div>
             </div>
     
-            <div class="md:w-8/12 lg:w-6/12  md:mb-0">
-              <img src="images/pilates.jpg" />
-            </div>
+           
           </div>
     
         </div>
@@ -50,7 +51,7 @@
 
     <!----------------------------->
 
-    <section class="bg-gray-100  w-full h-full px-16 py-6 md:col-span-2 rounded ">
+    <section class="bg-sky-100  w-full h-full px-16 py-6 md:col-span-2 rounded ">
     
       <!--------start---------current date and stopwatch-->
       <div class="flex justify-center py-8">
