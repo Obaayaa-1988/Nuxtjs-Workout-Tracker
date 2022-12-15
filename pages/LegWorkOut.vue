@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class=" h-1/4 w-full bg-indigo-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
+      class=" h-1/4 w-full bg-indigo-200 rounded-b-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
       <div class="flex justify-around">
         <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-28">
           LEG WORKOUT
@@ -41,7 +41,7 @@
       </section>
     </div>
 
-    <section class="bg-gray-100 rounded-t-3xl w-full h-full px-16 py-6 md:col-span-2  ">
+    <section class="bg-sky-100 rounded-t-3xl w-full h-full px-16 py-6 md:col-span-2  ">
 
       <!--------start---------current date and stopwatch-->
       <div class="flex justify-center py-8">
@@ -55,7 +55,7 @@
       <div class="mt-8 pb-24 ">
         <nuxt-link to="/OneLegSquat">
           <div
-            class="bg-yellow-300  w-2/3 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
+            class="bg-yellow-300  w-2/3 py-8 rounded-b-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
             <div class="flex justify-between">
               <div class=" ml-4 text-xl font-extrabold font-mono text-white"> Bench Press</div>
 
