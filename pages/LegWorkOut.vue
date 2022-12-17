@@ -61,7 +61,7 @@
       <div class="mt-8 pb-24 ">
         <nuxt-link to="/OneLegSquat">
           <div
-            class="bg-yellow-300  w-2/3 py-8 rounded-b-3xl overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
+            class="bg-yellow-300  w-2/3 py-8 overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
             <div class="flex justify-between">
               <div class=" ml-4 text-xl font-extrabold font-mono text-white"> Bench Press</div>
 
