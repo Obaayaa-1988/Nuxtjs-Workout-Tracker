@@ -78,7 +78,7 @@
         </nuxt-link>
 
 
-        <nuxt-link to="/cardio">
+        <nuxt-link to="/OneLegSquat">
           <div
             class="bg-cyan-400  w-2/3 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer  mb-8 mx-auto border-l-8 border-l-orange-500">
             <div class=" flex justify-between">
