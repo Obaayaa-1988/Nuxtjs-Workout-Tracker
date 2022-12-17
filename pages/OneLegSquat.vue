@@ -76,7 +76,7 @@
     </div> -->
 
     <!----------------creating new section---------------->
-    <div>
+    <!-- <div>
         <div
             class=" h-1/4 w-full bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
             <div class="flex justify-around">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        </div> -->
 
     <!----------------creating new section---------------->
     
