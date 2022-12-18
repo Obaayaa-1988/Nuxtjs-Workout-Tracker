@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-sky-100 h-full">
         <div class="flex justify-between py-8"> 
             <nuxt-link to="/LegWorkout">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-10 h-10 font-extrabold cursor-pointer">
