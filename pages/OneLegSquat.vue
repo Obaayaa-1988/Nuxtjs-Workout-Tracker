@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-sky-100 h-full">
+    <div class="">
         <div class="flex justify-between py-8"> 
             <nuxt-link to="/LegWorkout">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-10 h-10 font-extrabold cursor-pointer">
@@ -17,6 +17,15 @@
             </svg>
             </nuxt-link>
 
+        </div>
+
+        <!--------------------background image section-->
+
+        <div>
+            <div class="h-screen mx-8 rounded-2xl bg-no-repeat bg-center bg-cover "
+                :style="{ 'background-image': `url(${require('@/static/images/pilates.jpg')})` }">
+                </div>
+        
         </div>
 
     
