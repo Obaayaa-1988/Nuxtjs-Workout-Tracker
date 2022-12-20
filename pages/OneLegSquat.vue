@@ -19,7 +19,7 @@
 
         </div>
 
-        <!--------------------background image section-->
+        <!----------start----------background image section-->
 
         <div>
             <div class="h-screen mx-8 rounded-2xl bg-no-repeat bg-center bg-cover "
@@ -27,6 +27,21 @@
                 </div>
         
         </div>
+        <!-----------------end---background image section----->
+        <section class="bg-sky-50 h-full"> 
+            <div> 
+                <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-1/3 bg-pink-400 mb-7"> ONE LEG SQUAT</h1>
+            </div>
+            <div class="mx-36"> 
+                <h1 class="font-extrabold text-3xl pt-8 font-mono"> Instruction</h1>
+                <p class="font-mono"> It is a long established fact that a reader will be distracted by
+                the readable content of a page when looking at its
+                layout</p>
+            </div>
+
+
+
+        </section>
 
     
         
