@@ -23,7 +23,7 @@
 
         <div>
             <div class="h-screen mx-8 rounded-2xl bg-no-repeat bg-center bg-cover "
-                :style="{ 'background-image': `url(${require('@/static/images/pilates.jpg')})` }">
+                :style="{ 'background-image': `url(${require('@/static/images/one.jpg')})` }">
                 </div>
         
         </div>
