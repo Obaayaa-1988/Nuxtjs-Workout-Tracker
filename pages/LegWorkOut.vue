@@ -59,7 +59,7 @@
 
       <!----------------------start cardio cards-->
       <div class="mt-8 pb-24 ">
-        <nuxt-link to="/OneLegSquat">
+        <nuxt-link to="/BenchPress">
           <div
             class="bg-yellow-300  w-2/3 py-8 overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mb-8 mx-auto border-l-8 border-l-orange-500">
             <div class="flex justify-between">
@@ -95,7 +95,7 @@
 
           </div>
         </nuxt-link>
-        <nuxt-link to="/LegPresses">
+        <nuxt-link to="/LegExtension">
           <div
             class="bg-emerald-300  w-2/3 py-8 rounded overflow-hidden shadow-md relative hover:shadow-lg shadow-gray-500/50 cursor-pointer mx-auto border-l-8 border-l-orange-500 ">
             <div class=" flex justify-between">
