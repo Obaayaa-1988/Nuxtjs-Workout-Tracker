@@ -10,7 +10,7 @@
             </nuxt-link>
 
             <div class="font-bold text-2xl font-mono"> {{ new Date }}</div>
-            <nuxt-link to="/LegExtension">
+            <nuxt-link to="/OneLegExtention">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
                     class="w-10 h-10 font-extrabold cursor-pointer">
                     <path
