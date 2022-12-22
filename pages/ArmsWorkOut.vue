@@ -38,7 +38,7 @@
         </div>
 
         <div class="md:w-8/12 lg:w-6/12  md:mb-0">
-          <img src="images/legwork.jpg" />
+          <img src="images/Fitness.jpg" class="h-2/4"/>
         </div>
       </div>
 
