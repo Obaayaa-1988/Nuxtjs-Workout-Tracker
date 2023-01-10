@@ -24,9 +24,9 @@
       <section class=" rounded-md ">
         <div class="container">
     
-          <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+          <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800 py-16">
             <div class="md:w-8/12 lg:w-6/12  md:mb-0">
-              <img src="images/pilates.jpg" />
+              <img src="images/Fitness.jpg" />
             </div>
     
             <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
