@@ -32,8 +32,44 @@
                 </div>
             </div>
 
-            <!------------start---new section-->
+            <!------------start---new section---------->
+            <div>
+                <section class=" rounded-md ">
+                    <div class="container">
+            
+                        <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
 
+
+                            <div class="md:w-8/12 lg:w-6/12  md:mb-0">
+                                <img src="images/running.jpg" />
+                            </div>
+            
+                            <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
+                                <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-3/4 bg-red-300 mb-7"> LEG
+                                    WORKOUTS</h1>
+            
+                                <div>
+                                    <p class="w-5/6 font-serif leading-10  "> It is a long established fact that a reader will be
+                                        distracted
+                                        by
+                                        the readable content of a page when looking at its
+                                        layout. </p>
+                                </div>
+                            </div>
+            
+                            
+                        </div>
+            
+                    </div>
+                </section>
+            </div>
+
+            <!----------------endof running content 1--->
+
+            <!--------start of final running content------->
+
+            
+            <!--------end of final running content--------->
             
         </div>
     </div>
