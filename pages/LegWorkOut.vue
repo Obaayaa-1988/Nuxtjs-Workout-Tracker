@@ -27,7 +27,7 @@
           <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
 
             <div class="md:w-8/12 lg:w-5/12 lg:ml-20 ">
-              <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-3/4 bg-red-300 mb-7"> LEG
+              <h1 class=" text-3xl font-mono text-center rounded font-extrabold py-4 w-1/4 bg-red-300 mb-7"> LEG
                 WORKOUTS</h1>
 
               <div>
