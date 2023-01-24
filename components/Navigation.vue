@@ -3,7 +3,7 @@
       <aside class="w-64 shadow-gray-500/50 " aria-label="Sidebar">
          <nav class="text-right">
             <div class="flex justify-evenly items-center">
-               <h1 class="font-extrabold upppercase p-8  text-pink-500 text-lg font-mono">
+               <h1 class="font-extrabold upppercase p-8  text-pink-500 text-lg font-body">
                   <nuxt-link to="/Showcase" class="hover:text-gray-700 ">MYFIT TRACKER</nuxt-link>
                </h1>
                <div class="px-4 cursor-pointer md:hidden" id="burger">
@@ -17,7 +17,7 @@
             <div class="flex flex-col items-center gap-y-12 mt-8">
                <p class="w-24  pr-8">
                   <nuxt-link to="/profile" class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono ">Profile</span>
+                     <span class="text-lg font-semibold font-body ">Profile</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                            stroke="currentColor" class="w-7 h-7 font-semibold">
@@ -32,7 +32,7 @@
 
                <p class="w-24 pr-2 ">
                   <nuxt-link to="/notify" class="flex justify-between gap-4">
-                     <span class="text-lg font-semibold font-mono ">Notify</span>
+                     <span class="text-lg font-semibold font-body ">Notify</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24"
                            stroke="currentColor" stroke-width="2">
@@ -58,7 +58,7 @@
                </p>
                <p class="w-24 pr-2 ">
                   <nuxt-link to="/settings" class="flex justify-between gap-4 cursor-pointer">
-                     <span class="text-lg font-semibold font-mono ">Settings</span>
+                     <span class="text-lg font-semibold font-body ">Settings</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                            stroke="currentColor" class="w-6 h-6 ">
@@ -72,7 +72,7 @@
                </p>
                <p class="w-24 pr-2 pt-72">
                   <nuxt-link to="/Logout" class="flex justify-between gap-4 cursor-pointer ">
-                     <span class="text-lg font-semibold font-mono text-pink-600">LogOut</span>
+                     <span class="text-lg font-semibold font-body text-pink-600">LogOut</span>
                      <span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                            stroke="currentColor" class="w-6 h-6 text-pink-600">

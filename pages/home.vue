@@ -4,7 +4,7 @@
             <div
                 class=" h-1/4 w-full bg-indigo-300 rounded-b-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 shadow-lg shadow-gray-500/50">
                 <div class="flex justify-around">
-                    <h2 class="text-gray-700 text-4xl font-extrabold font-mono pt-44">
+                    <h2 class="text-gray-700 text-4xl font-semibold font-body pt-44">
                         CHOOSE A WORKOUT
                     </h2>
                     <div></div>
@@ -19,10 +19,10 @@
 
             <main class="px-16 py-6 md:col-span-2 pb-20 ">
                 <div>
-                    <h3 class="text-xl font-semibold pt-12 font-mono">WEIGHT TRAINING</h3>
+                    <h3 class="text-xl font-semibold pt-12 font-body">WEIGHT TRAINING</h3>
                 </div>
                 <header>
-                    <h3 class="text-xl font-semibold pt-12 font-mono">Area Of Focus</h3>
+                    <h3 class="text-xl font-semibold pt-12 font-body">Area Of Focus</h3>
                 </header>
 
                 <div>
@@ -35,7 +35,7 @@
                                     <img src="images/legs.png" alt="PanCake" class="w-36 h-36 object-cover" />
                                 </div>
                                 <div class="m-4">
-                                    <span class="font-semibold text-2xl font-mono">Legs</span>
+                                    <span class="font-semibold text-2xl font-body">Legs</span>
                                 </div>
                             </div>
                         </nuxt-link>
@@ -46,7 +46,7 @@
                                     <img src="images/abs.png" alt="PanCake" class="w-36 h-36 object-cover" />
                                 </div>
                                 <div class="m-4">
-                                    <span class="font-semibold text-2xl font-mono">Abs</span>
+                                    <span class="font-semibold text-2xl font-body">Abs</span>
                                 </div>
                             </div>
                         </nuxt-link>
@@ -58,7 +58,7 @@
                                     <img src="images/glutes.png" alt="PanCake" class="w-36 h-36 object-cover" />
                                 </div>
                                 <div class="m-4">
-                                    <span class="font-semibold text-2xl font-mono">Glutes</span>
+                                    <span class="font-semibold text-2xl font-body">Glutes</span>
                                 </div>
                             </div>
                         </nuxt-link>
@@ -69,7 +69,7 @@
                                     <img src="images/chest.png" alt="PanCake" class="w-36 h-36 object-cover" />
                                 </div>
                                 <div class="m-4">
-                                    <span class="font-semibold text-2xl font-mono">Chest</span>
+                                    <span class="font-semibold text-2xl font-body">Chest</span>
 
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                                     <img src="images/arms.png" alt="PanCake" class="w-36 h-36 object-cover" />
                                 </div>
                                 <div class="m-4">
-                                    <span class="font-semibold text-2xl font-mono">Arms</span>
+                                    <span class="font-semibold text-2xl font-body">Arms</span>
                                 </div>
                             </div>
                         </nuxt-link>
@@ -92,7 +92,7 @@
                                     <img src="images/full.png" alt="PanCake" class="w-36 h-36 object-cover" />
                                 </div>
                                 <div class="m-4">
-                                    <span class="font-semibold text-2xl font-mono">Full Body</span>
+                                    <span class="font-semibold text-2xl font-body">Full Body</span>
                                 </div>
                             </div>
                         </nuxt-link>
@@ -104,7 +104,7 @@
 
             <section class="bg-sky-100 rounded-t-3xl rounded-b-3xl w-full h-3/4  px-16 py-6 md:col-span-2 ">
                 <div>
-                    <h3 class="text-xl font-semibold pt-12 font-mono">CARDIO TRAINING</h3>
+                    <h3 class="text-xl font-semibold pt-12 font-body">CARDIO TRAINING</h3>
                 </div>
                 <header>
                     <h3 class="text-xl font-semibold py-12 font-mono ">Area Of Focus</h3>
@@ -122,7 +122,7 @@
                             </svg>
                                 </div>
 
-                                <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4 text-white">RUNNING</div>
+                                <div class="text-blue ml-4 text-xl font-extrabold font-body pt-4 text-white">RUNNING</div>
 
                             </div>
                            
@@ -140,7 +140,7 @@
                             </svg>
                             </div>
                         
-                            <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4 text-white">CYCLING</div>
+                            <div class="text-blue ml-4 text-xl font-extrabold font-body pt-4 text-white">CYCLING</div>
                         
                         </div>
                 
@@ -156,7 +156,7 @@
                                 </svg>
                             </div>
                         
-                            <div class="text-blue ml-4 text-xl font-extrabold font-mono pt-4 text-white">WALKING</div>
+                            <div class="text-blue ml-4 text-xl font-extrabold font-body pt-4 text-white">WALKING</div>
                         
                         </div>
                     </div>
